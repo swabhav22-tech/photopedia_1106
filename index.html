@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wilder Ground — Landscape Photography</title>
+<meta name="description" content="Landscape and nature photography — mountains, water, and the quiet in between.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav">
+  <a href="#top" class="nav__mark">Wilder Ground</a>
+  <nav class="nav__links">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener" class="nav__insta">@yourhandle</a>
+  <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1800&q=80" alt="Mountain range at first light" class="hero__img">
+    <div class="hero__scrim"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Landscape &amp; nature photography</p>
+      <h1 class="hero__title">What the light<br>touches first</h1>
+      <p class="hero__sub">A field journal of mountains, water and weather — shot on foot, mostly before sunrise.</p>
+    </div>
+    <a href="#work" class="hero__scroll" aria-label="Scroll to work">
+      <span></span>
+    </a>
+  </section>
+
+  <section class="intro">
+    <p>
+      Every frame here started with a walk in the dark and a guess about where the sun would land.
+      Some mornings it works out. This is a running collection of the ones that did — organized loosely
+      by what the land was doing that day, not by where I stood to shoot it.
+    </p>
+  </section>
+
+  <section id="work" class="gallery-section">
+    <div class="gallery-header">
+      <h2>Selected work</h2>
+      <div class="filters" role="tablist" aria-label="Filter gallery by category">
+        <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter" data-filter="peaks" role="tab" aria-selected="false">Peaks</button>
+        <button class="filter" data-filter="water" role="tab" aria-selected="false">Water</button>
+        <button class="filter" data-filter="forest" role="tab" aria-selected="false">Forest</button>
+        <button class="filter" data-filter="sky" role="tab" aria-selected="false">Sky</button>
+      </div>
+    </div>
+
+    <div class="gallery" id="gallery">
+
+      <figure class="tile tile--tall" data-cat="peaks">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1200&q=80" alt="Mountain reflected in a still alpine lake" loading="lazy">
+        <figcaption><span>Held Water</span><span>Peaks</span></figcaption>
+      </figure>
+
+      <figure class="tile" data-cat="forest">
+        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80" alt="Sunlight through a dense pine forest" loading="lazy">
+        <figcaption><span>Understory</span><span>Forest</span></figcaption>
+      </figure>
+
+      <figure class="tile tile--wide" data-cat="sky">
+        <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=1600&q=80" alt="Dramatic sunset light over open land" loading="lazy">
+        <figcaption><span>Last Light</span><span>Sky</span></figcaption>
+      </figure>
+
+      <figure class="tile" data-cat="water">
+        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80" alt="Calm lake with mountain reflection" loading="lazy">
+        <figcaption><span>Mirror Line</span><span>Water</span></figcaption>
+      </figure>
+
+      <figure class="tile tile--tall" data-cat="peaks">
+        <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=1200&q=80" alt="Layered mountain ridges in mist" loading="lazy">
+        <figcaption><span>Ridge After Ridge</span><span>Peaks</span></figcaption>
+      </figure>
+
+      <figure class="tile" data-cat="sky">
+        <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=1200&q=80" alt="Fog rolling low over mountains" loading="lazy">
+        <figcaption><span>Low Cloud</span><span>Sky</span></figcaption>
+      </figure>
+
+      <figure class="tile tile--wide" data-cat="forest">
+        <img src="https://images.unsplash.com/photo-1476611317561-60117649dd94?auto=format&fit=crop&w=1600&q=80" alt="A trail cutting through autumn forest" loading="lazy">
+        <figcaption><span>The Long Way</span><span>Forest</span></figcaption>
+      </figure>
+
+      <figure class="tile" data-cat="peaks">
+        <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=1200&q=80" alt="Golden hour on a mountain landscape" loading="lazy">
+        <figcaption><span>Warm Front</span><span>Peaks</span></figcaption>
+      </figure>
+
+      <figure class="tile tile--tall" data-cat="water">
+        <img src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=1200&q=80" alt="Quiet forest stream" loading="lazy">
+        <figcaption><span>Runoff</span><span>Water</span></figcaption>
+      </figure>
+
+      <figure class="tile" data-cat="sky">
+        <img src="https://images.unsplash.com/photo-1447069387593-a5de0862481e?auto=format&fit=crop&w=1200&q=80" alt="Wide open sky above mountain range" loading="lazy">
+        <figcaption><span>Open Country</span><span>Sky</span></figcaption>
+      </figure>
+
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about__img">
+      <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80" alt="Photographer's view from a mountain trail">
+    </div>
+    <div class="about__text">
+      <h2>Behind the camera</h2>
+      <p>
+        I'm a self-taught landscape photographer chasing weather more than locations. Most of what's
+        here was shot within a few hours of home — the point was never to travel far, just to show up
+        often enough that the light eventually cooperated.
+      </p>
+      <p>
+        New work goes up on Instagram first, usually with the story of how the morning actually went.
+        This site is the edited, slower version of that.
+      </p>
+      <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener" class="about__link">Follow along on Instagram</a>
+    </div>
+  </section>
+
+  <section id="contact" class="cta">
+    <h2>Prints, collaborations,<br>or just to say hello</h2>
+    <a href="mailto:you@example.com" class="cta__button">you@example.com</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>Wilder Ground — photography by <em>Your Name</em></span>
+  <div class="footer__links">
+    <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener">Instagram</a>
+    <a href="mailto:you@example.com">Email</a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
